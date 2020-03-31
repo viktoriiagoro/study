@@ -15,11 +15,11 @@
     "serve": "yarn && yarn build && STAGE=prod node -r esm server.js",
     "prettier": "prettier src/**/*.{js,jsx} --write"
   },
-  // "husky": {
-  //   "hooks": {
-  //     "pre-commit": "lint-staged"
-  //   }
-  // },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
       "prettier --write",
