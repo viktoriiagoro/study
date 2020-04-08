@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.styl'
-
 const Home = () => {
   return (
     <div className='home'>
@@ -24,12 +23,52 @@ const Home = () => {
             <p className='p'>It helps developers to build beautiful and user-friendly web apps quickly and easily!</p>
             <button className='button'>Try in now</button>
           </div>
-          <img src='./public/img/imac.png' />
+          <img src='./public/img/imac.svg' />
         </div>
         <div className='container'>
           <div className='dot'></div>
           <div className='dot'></div>
           <div className='dot'></div>
+        </div>
+      </div>
+      <div className='body'>
+        <div className='wrapper'>
+          <h1 className='text'>Why Use AppKit?</h1>
+          <p className='text1'>
+            Appkit uses modern front-end technologies and is packed with useful components and widgets to speed up your
+            app development
+          </p>
+          <div className='img'>
+            <div>
+              <img src='/public/img/logo-bootstrap.svg'></img>
+            </div>
+            <div>
+              <img src='/public/img/logo-angular.svg'></img>
+            </div>
+            <div>
+              <img src='/public/img/logo-css3.svg'></img>
+            </div>
+            <div>
+              <img src='/public/img/logo-html5.svg'></img>
+            </div>
+            <div>
+              <img src='/public/img/logo-less.svg'></img>
+            </div>
+            <div>
+              <img src='/public/img/logo-jquery.svg'></img>
+            </div>
+          </div>
+        </div>
+        <div className='figure'>
+          <div className='figuree'>
+            <img src='/public/img/figure-1.png'></img>
+          </div>
+          <div className='figuree'>
+            <img src='/public/img/figure-2.png'></img>
+          </div>
+          <div className='figuree'>
+            <img src='/public/img/figure-3.png'></img>
+          </div>
         </div>
       </div>
     </div>
