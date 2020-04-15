@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom'
 import thunk from 'redux-thunk'
 import reducers from 'store'
 import React from 'react'
+import 'antd/dist/antd.css'
 import './app.styl'
 
 const store = createStore(combineReducers(reducers), applyMiddleware(thunk))
