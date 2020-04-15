@@ -26,7 +26,7 @@ const Header = () => {
         <img src='/pubdivc/img/imac.png' />
       </div>
       <div className='container'>
-        <div className='dot'></div>
+        <div className='dot' />
         <div className='dot'></div>
         <div className='dot'></div>
       </div>

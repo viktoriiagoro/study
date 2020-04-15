@@ -1,18 +1,20 @@
-import React from 'react'
-import './index.styl'
+import { Container } from 'components'
 import {
   StepBackwardOutlined,
-  FormOutlined,
   CloudUploadOutlined,
-  StarOutlined,
-  SyncOutlined,
-  SmileOutlined,
   SolutionOutlined,
   SearchOutlined,
+  SmileOutlined,
+  FormOutlined,
+  StarOutlined,
+  SyncOutlined,
 } from '@ant-design/icons'
+import React from 'react'
+import './index.styl'
+
 const Features = () => {
   return (
-    <div className='wrapper-content'>
+    <Container className='wrapper-content'>
       <h1 className='text-centr'>Discover Features</h1>
       <p className='text-p'>Features comes with an AngularJS version, 4 colour schemes and 100+ components</p>
       <div className='item-wrapper'>
@@ -53,7 +55,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   )
 }
 

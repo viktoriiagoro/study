@@ -1,9 +1,10 @@
+import { Container } from 'components'
 import React from 'react'
 import './index.styl'
 
 const AppKit = () => {
   return (
-    <div className='wrapper'>
+    <Container className='AppKit'>
       <h1 className='text'>Why Use AppKit?</h1>
       <p className='text1'>
         Appkit uses modern front-end technologies and is packed with useful components and widgets to speed up your app
@@ -63,7 +64,7 @@ const AppKit = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   )
 }
 
