@@ -1,12 +1,18 @@
+import { Header, AppKit, Customers, Features, Team, Pricing } from './components'
 import React from 'react'
 import './index.styl'
 
 const Home = () => {
   return (
     <div className='home'>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
+      <Header />
+      <div className='body'>
+        <AppKit />
+        <Customers />
+        <Features />
+        <Team />
+        <Pricing />
+      </div>
     </div>
   )
 }
