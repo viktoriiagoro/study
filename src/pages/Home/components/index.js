@@ -1,6 +1,0 @@
-export { default as Header } from './Header'
-export { default as AppKit } from './AppKit'
-export { default as Customers } from './Customers'
-export { default as Features } from './Features'
-export { default as Team } from './Team'
-export { default as Pricing } from './Pricing'

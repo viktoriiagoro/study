@@ -45,7 +45,7 @@ module.exports = () => ({
         })),
       },
       {
-        test: /\.(jpg|img|png|svg)$/,
+        test: /\.(img|png|svg)$/,
         use: 'url-loader',
       },
     ],

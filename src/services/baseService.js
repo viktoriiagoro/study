@@ -1,7 +1,7 @@
 // import { notification } from 'antd'
 import { get } from 'lodash'
 
-const getUrl = (url) => {
+const getUrl = url => {
   return `${process.env.BASE_URL}/${url}`
 }
 
