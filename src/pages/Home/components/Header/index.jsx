@@ -23,12 +23,12 @@ const Header = () => {
           <p className='p'>It helps developers to build beautiful and user-friendly web apps quickly and easily!</p>
           <button className='button'>Try in now</button>
         </div>
-        <img src='/pubdivc/img/imac.png' />
+        <img src='/public/img/imac.png' />
       </div>
       <div className='container'>
         <div className='dot' />
-        <div className='dot'></div>
-        <div className='dot'></div>
+        <div className='dot' />
+        <div className='dot' />
       </div>
     </div>
   )

@@ -12,29 +12,29 @@ const AppKit = () => {
       </p>
       <div className='imges'>
         <div className='item-img'>
-          <img src='/public/img/logo-bootstrap.svg'></img>
+          <img src='/public/img/logo-bootstrap.svg' />
         </div>
         <div className='item-img'>
-          <img src='/public/img/logo-angular.svg'></img>
+          <img src='/public/img/logo-angular.svg' />
         </div>
         <div className='item-img'>
-          <img src='/public/img/logo-css3.svg'></img>
+          <img src='/public/img/logo-css3.svg' />
         </div>
         <div className='item-img'>
-          <img src='/public/img/logo-html5.svg'></img>
+          <img src='/public/img/logo-html5.svg' />
         </div>
         <div className='item-img'>
-          <img src='/public/img/logo-less.svg'></img>
+          <img src='/public/img/logo-less.svg' />
         </div>
         <div className='item-img'>
-          <img src='/public/img/logo-jquery.svg'></img>
+          <img src='/public/img/logo-jquery.svg' />
         </div>
       </div>
       <div className='item-wrapper'>
         <div className='item-conteiner'>
           <div className='item-inner'>
             <div className='figure'>
-              <img src='/public/img/figure-1.png'></img>
+              <img src='/public/img/figure-1.png' />
 
               <h3 className='h3'>UX-Centered Design</h3>
               <p className='item'>
@@ -43,7 +43,7 @@ const AppKit = () => {
               </p>
             </div>
             <div className='figure'>
-              <img src='/public/img/figure-2.png'></img>
+              <img src='/public/img/figure-2.png' />
 
               <h3 className='h3'>Supercharge App Development</h3>
               <p className='item'>
@@ -52,7 +52,7 @@ const AppKit = () => {
               </p>
             </div>
             <div className='figure'>
-              <img src='/public/img/figure-3.png'></img>
+              <img src='/public/img/figure-3.png' />
 
               <h3 className='h3'>Mobile First</h3>
               <p className='item'>
