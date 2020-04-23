@@ -1,4 +1,4 @@
-import { Header, AppKit, Customers, Features, Team, Pricing } from './components'
+import { Header, AppKit, Customers, Features, Team, Pricing, Contact, Footer } from './components'
 import React from 'react'
 import './index.styl'
 
@@ -12,6 +12,8 @@ const Home = () => {
         <Features />
         <Team />
         <Pricing />
+        <Contact />
+        <Footer />
       </div>
     </div>
   )
