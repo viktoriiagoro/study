@@ -21,31 +21,30 @@ const teamList = [
 
 const AppKit = () => {
   return (
-    <div className='wrapper-text'>
-      <Container className='wrapper-content'>
-        <div className='wrapper-centr'>
-          <h1 className='team'>Our Team</h1>
-          <p className='text-p2'>See who are behind AppKit</p>
-          <div className='appkit'>
-            AppKit is created by Xiaoying Riley and Tomasz Najdek. Xiaoying and Tom got to know each other while working
-            as freelancers on Google projects and became good friends. They firmly bediveve with the right resource,
-            solopreneurs and small teams can execute beautiful products too. Thus they made AppKit to help developers
-            and startups make outstanding products - the internet has made it possible for the "small guys" to compete
-            directly with the "big guys".
-          </div>
-          <div className='iteam'>
-            {teamList.map((itm) => (
-              <div className='iteam1' key={itm.name}>
-                <img src={itm.avatar} />
-                <h1 className='hi'>{itm.name}</h1>
-                <p>{itm.role}</p>
-                <p className='text-xia'>{itm.desc}</p>
-              </div>
-            ))}
-          </div>
+    <Container wrapperClassName='wrapper-team'>
+      <div className='wrapper-centr'>
+        <h1 className='team'>Our Team</h1>
+        <p className='text-p2'>See who are behind AppKit</p>
+        <div className='appkit'>
+          AppKit is created by Xiaoying Riley and Tomasz Najdek. Xiaoying and Tom got to know each other while working
+          as freelancers on Google projects and became good friends. They firmly bediveve with the right resource,
+          solopreneurs and small teams can execute beautiful products too. Thus they made AppKit to help developers and
+          startups make outstanding products - the internet has made it possible for the "small guys" to compete
+          directly with the "big guys".
         </div>
-      </Container>
-    </div>
+        <div className='iteam'>
+          {teamList.map((itm) => (
+            <div className='iteam1' key={itm.name}>
+              <img src={itm.avatar} />
+              <h1 className='hi'>{itm.name}</h1>
+              <p>{itm.role}</p>
+              <p className='text-xia'>{itm.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Container>
+    //
   )
 }
 
