@@ -16,7 +16,7 @@ const Contact = () => {
               <span className='number'>20</span>
             </div>
             <div className='desk'>
-              <p>Restricted to a single installation...</p>
+              <p className='text-prising'>Restricted to a single installation...</p>
               <a className='buy'>License Details</a>
             </div>
             <button className='buttons'>Buy Now</button>
@@ -28,7 +28,7 @@ const Contact = () => {
               <span className='number'>80</span>
             </div>
             <div className='desk'>
-              <p>May extend to multiple installations...</p>
+              <p className='text-prising'>May extend to multiple installations...</p>
               <a className='buy'>License Details</a>
             </div>
             <button className='buttons'>Buy Now</button>
@@ -40,7 +40,7 @@ const Contact = () => {
               <span className='number'>1200</span>
             </div>
             <div className='desk'>
-              <p>May license, sublicense, redistribute, or resell the item...</p>
+              <p className='text-prising'>May license, sublicense, redistribute, or resell the item...</p>
               <a className='buy'>License Details</a>
             </div>
             <button className='buttons'>Buy Now</button>

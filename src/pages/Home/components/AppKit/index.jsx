@@ -34,7 +34,6 @@ const AppKit = () => {
         <div className='item-inner'>
           <div className='figure'>
             <img src='/public/img/figure-1.png' />
-
             <h3 className='h3'>UX-Centered Design</h3>
             <p className='item'>
               Bespoke UX/UI design to enhance your app's user experience. Let AppKit take care of the design so you can

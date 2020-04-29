@@ -12,7 +12,7 @@ const Customers = () => {
             <img src='/public/img/profile-1.png' />
           </div>
           <div className='info'>
-            <p className='title2'>
+            <p>
               Testimonial goes here Donec fedivs odio, sagittis eu cursus ac, porttitor eu purus. In a bibendum dui.
               Nullam id est sed fedivs rutrum tincidunt eu nec nisi morbi euismod semper neque sed lobortis.
             </p>
