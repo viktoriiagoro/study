@@ -35,7 +35,7 @@ const AppKit = () => {
         <div className='iteam'>
           {teamList.map((itm) => (
             <div className='iteam1' key={itm.name}>
-              <img src={itm.avatar} />
+              <img src={itm.avatar} width='140' height='140' />
               <h1 className='hi'>{itm.name}</h1>
               <p>{itm.role}</p>
               <p className='text-xia'>{itm.desc}</p>
