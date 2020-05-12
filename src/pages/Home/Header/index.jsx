@@ -1,16 +1,15 @@
-import { Header } from 'components'
+import { MenuOutlined, AudioOutlined } from '@ant-design/icons'
 import React from 'react'
 import './index.styl'
-const Header = () => {
+const Home = () => {
   return (
-    <div className='home'>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>3</div>
-      <div>3</div>
+    <div className='header'>
+      <MenuOutlined />
+      <img src='/public/img/noticia-youtube-min.jpg' width='140px' />
+      <input placeholder='Поиск' className='input' type='text' />
+      <AudioOutlined />
     </div>
   )
 }
 
-export default Header
+export default Home
