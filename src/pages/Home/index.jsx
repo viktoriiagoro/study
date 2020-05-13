@@ -1,4 +1,4 @@
-import { MenuOutlined, MonitorOutlined } from '@ant-design/icons'
+import { MenuOutlined } from '@ant-design/icons'
 import React from 'react'
 import './index.styl'
 const Home = () => {
@@ -6,8 +6,9 @@ const Home = () => {
     <div className='header'>
       <MenuOutlined />
       <img src='/public/img/noticia-youtube-min.jpg' width='140px' />
-      <input placeholder='Поиск' className='input' type='text' />
-      <MonitorOutlined />
+      <form className='search' id='box'>
+        <input placeholder='Пошук' className='input' type='text' />
+      </form>
     </div>
   )
 }
