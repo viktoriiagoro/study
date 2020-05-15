@@ -1,14 +1,21 @@
-import { MenuOutlined } from '@ant-design/icons'
 import React from 'react'
 import './index.styl'
+import Header from './Header'
+import { Layout } from 'antd'
+import Sider from './Sider'
+
+const { Content } = Layout
+
 const Home = () => {
   return (
-    <div className='header'>
-      <MenuOutlined />
-      <img src='/public/img/noticia-youtube-min.jpg' width='140px' />
-      <form className='search' id='box'>
-        <input placeholder='Пошук' className='input' type='text' />
-      </form>
+    <div>
+      <Layout>
+        <Header />
+        <Layout>
+          <Sider />
+          <Content>adfadsfasdf</Content>
+        </Layout>
+      </Layout>
     </div>
   )
 }
