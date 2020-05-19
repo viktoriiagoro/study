@@ -1,42 +1,42 @@
 .header
   display flex
   height 66px
-  padding 0 16px
+  padding 0 25px !important
   justify-content: space-between;
   max-width 100%
   box-sizing: border-box
   background-color: #fff !important
-
   .icon
-    padding 25px
-    font-size: 20px
+    font-size: 19px
     cursor: pointer
-    color #606060
+    color #030303
+    padding-top: 5px
   .png
-    padding-left: -25px
+    padding-left: -35px
     cursor: pointer
   .search 
-    width: 500px;
+    width: 600px;
     margin: auto;
-    padding-top: 10px
     display: flex
+    margin-bottom: 20px
+    .icon-wrap
+      cursor pointer
+      font-size 16px
+      &:hover
+        color: #212121
+        transition: all .5s
+        
+    .icone
+      width: 70px
+      &:hover
+        color: #212121
+        transition: all .5s
+        background: #f0f2f5
     
-    .input
-      padding: 5px 15px;
-      height 35px
-      padding-left: 25px
-      // background-image: url('/public/img/images.png') 
-      // background-size: 35px auto;
-      // // background-size: 0%
-    .button
-      background: #f8f8f8 
-      cursor: pointer
-      padding-right: 20px
-
   .icon-left
     display: flex
-    padding-right: 15px
-    padding-top: 15px
+    padding-right: 5px
+    
     .icones
       font-size: 20px
       padding-left: 15px
@@ -44,5 +44,12 @@
       cursor: pointer
     .profile
       padding-left: 25px
-      border-radius: 50px 0px 0px 50px
       cursor: pointer
+      padding-top: 15px
+      .photo
+        border-radius: 50%;
+        overflow: hidden;
+        height 34px
+        width 34px
+      
+      

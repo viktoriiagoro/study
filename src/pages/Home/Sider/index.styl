@@ -1,1 +1,46 @@
-// .sider
+.sider 
+  height calc(100vh - 64px)
+  overflow-y auto
+  overflow-x hidden
+  .menu-wrap
+    padding-top: 8px
+    .menu-item
+      display: flex
+      height 37px
+      cursor: pointer
+      align-items center
+      &:hover
+        background: #f0f2f5
+        transition: all .25s
+      &-icon
+        padding-left: 25px
+        font-size: 20px
+      &-title
+        padding-left: 25px
+        font-weight: 500;
+        text-overflow: ellipsis;
+      .title
+        font-size: 15px
+        font-weight: 500
+      .item
+        padding-left: 25px
+        color: #444444
+    .menu-active
+      background:#e8e8e8
+      .menu-item-icon
+        color: red
+  .divider
+    margin 12px 0px
+  .menu-title
+    padding-left: 22px
+    color: #444444
+    font-weight: 500
+  .promo
+    padding: 16px 24px 0;
+    cursor pointer
+    p
+      font-weight: 600;   
+      font-size: 12px  
+  .copyright
+      padding: 16px 24px;
+          

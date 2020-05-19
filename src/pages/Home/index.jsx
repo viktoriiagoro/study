@@ -3,8 +3,7 @@ import './index.styl'
 import Header from './Header'
 import { Layout } from 'antd'
 import Sider from './Sider'
-
-const { Content } = Layout
+import Content from './Content'
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
         <Header />
         <Layout>
           <Sider />
-          <Content>adfadsfasdf</Content>
+          <Content />
         </Layout>
       </Layout>
     </div>
