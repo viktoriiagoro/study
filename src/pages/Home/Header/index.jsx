@@ -7,7 +7,7 @@ import {
   AudioOutlined,
 } from '@ant-design/icons'
 import React from 'react'
-import { Button, Input, Layout } from 'antd'
+import { Button, Input, Layout, Tooltip } from 'antd'
 import './index.styl'
 
 const Header = () => {
@@ -26,13 +26,19 @@ const Header = () => {
       <div className='icon-left'>
         <div className='icones'>
           {' '}
-          <PlaySquareOutlined />
+          <Tooltip title='Створити'>
+            <PlaySquareOutlined />
+          </Tooltip>
         </div>
         <div className='icones'>
-          <AppstoreOutlined />
+          <Tooltip title='Додайте на YouTube'>
+            <AppstoreOutlined />
+          </Tooltip>
         </div>
         <div className='icones'>
-          <BellOutlined />
+          <Tooltip title='Сповiщення'>
+            <BellOutlined />
+          </Tooltip>
         </div>
         <div className='profile'>
           <div className='photo'>
