@@ -3,44 +3,65 @@
   overflow-y auto
   overflow-x hidden
   .menu-wrap
-    padding-top: 8px
+    padding-top 8px
     .menu-item
-      display: flex
+      display flex
       height 37px
-      cursor: pointer
+      cursor pointer
       align-items center
-      &:hover
-        background: #f0f2f5
-        transition: all .25s
+      .dot-default
+        width 4px
+        height 4px
+        border-radius 50%
+        margin 0px 25px
+        display none
+      .dot-online
+        display block
+        background  #065fd4
+      .icon-stream
+        display block
+        margin-right 22px
+        color red
+        font-size 9px
+      &hover
+        background #f0f2f5
+        transition all .25s
       &-icon
-        padding-left: 25px
-        font-size: 20px
+        padding-left 25px
+        font-size 20px
       &-title
-        padding-left: 25px
-        font-weight: 500;
-        text-overflow: ellipsis;
+        padding-left 25px
+        font-weight 500
+        text-overflow ellipsis
       .title
-        font-size: 15px
-        font-weight: 500
+        font-size 15px
+        font-weight 500
       .item
-        padding-left: 25px
-        color: #444444
+        padding-left 25px
+        color #444444
+    .left-wrap
+      display flex
+      justify-content flex-end
+    .right-wrap
+      margin-left auto
+      margin-right 4px
     .menu-active
-      background:#e8e8e8
+      background#e8e8e8
       .menu-item-icon
-        color: red
+        color red
   .divider
     margin 12px 0px
   .menu-title
-    padding-left: 22px
-    color: #444444
-    font-weight: 500
+    padding-left 22px
+    color #444444
+    font-weight 500
+    display flex
   .promo
-    padding: 16px 24px 0;
+    padding 16px 24px 0
     cursor pointer
     p
-      font-weight: 600;   
-      font-size: 12px  
+      font-weight 600   
+      font-size 12px  
   .copyright
-      padding: 16px 24px;
+      padding 16px 24px
           

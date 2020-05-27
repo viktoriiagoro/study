@@ -66,10 +66,12 @@ export const SIDER_MENU = [
       {
         icon: YoutubeOutlined,
         title: 'НТВ',
+        isBroadcasting: true,
       },
       {
         icon: YoutubeOutlined,
         title: 'Новий канал',
+        isOnline: true,
       },
       {
         icon: YoutubeOutlined,
@@ -78,21 +80,26 @@ export const SIDER_MENU = [
       {
         icon: YoutubeOutlined,
         title: 'Типичний вер...',
+        isOnline: true,
       },
       {
         icon: YoutubeOutlined,
         title: 'Говорить україна',
+        isOnline: true,
       },
       {
         icon: YoutubeOutlined,
         title: 'ICTV',
+        isOnline: true,
+        isBroadcasting: true,
       },
       {
         icon: YoutubeOutlined,
         title: 'Андрей Андр...',
+        isOnline: true,
       },
       {
-        icon: YoutubeOutlined,
+        icon: DownOutlined,
         title: 'Показати ще 51',
       },
     ],
@@ -109,7 +116,7 @@ export const SIDER_MENU = [
         title: 'Фільми YouTube',
       },
       {
-        icon: CommentOutlined,
+        icon: HeartOutlined,
         title: 'Ігри',
       },
       {

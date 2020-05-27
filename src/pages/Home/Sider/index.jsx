@@ -13,10 +13,19 @@ const Sider = () => {
             <div className='menu-wrap'>
               {item.menu.map((itm, ind) => {
                 const Icon = itm.icon
+                console.log(itm)
+                console.log(ind)
+                console.log(item)
                 return (
                   <div className={'menu-item' + (itm.isActive ? ' menu-active' : '')} key={ind}>
-                    <Icon className='menu-item-icon' />
-                    <span className='menu-item-title'>{itm.title}</span>
+                    <div className='left-wrap'>
+                      <Icon className='menu-item-icon' />
+                      <div className='menu-item-title'>{itm.title}</div>
+                    </div>
+                    <div className='right-wrap'>
+                      <div className={'dot-default' + (itm.isOnline && !itm.isBroadcasting ? ' dot-online' : '')} />
+                      {itm.isBroadcasting ? <Icon className='icon-stream' /> : null}
+                    </div>
                   </div>
                 )
               })}
