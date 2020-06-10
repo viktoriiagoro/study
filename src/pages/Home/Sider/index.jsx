@@ -13,11 +13,8 @@ const Sider = () => {
             <div className='menu-wrap'>
               {item.menu.map((itm, ind) => {
                 const Icon = itm.icon
-                console.log(itm)
-                console.log(ind)
-                console.log(item)
                 return (
-                  <div className={'menu-item' + (itm.isActive ? ' menu-active' : '')} key={ind}>
+                  <div className={'menu-item' + (itm.isActive ? ' menu-active' : '')} key={ind} onClick={itm.action}>
                     <div className='left-wrap'>
                       <Icon className='menu-item-icon' />
                       <div className='menu-item-title'>{itm.title}</div>

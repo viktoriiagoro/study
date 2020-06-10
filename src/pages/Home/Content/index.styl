@@ -1,32 +1,39 @@
-.content-2
+.main-content-wrap
   height calc(100vh - 64px)
   overflow-y auto
   overflow-x hidden
   .title
-      margin-top: 36px;
-      margin-left: 24px;
-      
-      .title-style
-          color: #030303
-          font-size: 25px;
-          font-weight: 500;
-  .content
+    margin-top: 36px;
+    margin-left: 24px;
+    .title-style
+      color: #030303
+      font-size: 25px;
+      font-weight: 500;
+  .video-item-wrap
     margin: 16px 15px
-  .page-wrap
-    display: flex
-    .photo-user
+    .video-description-wrap
+      display: flex
+      .photo-user
         border-radius: 50%;
         overflow: hidden;
-        height  50px
-        width 105px
-        margin-top: 20px 
-        margin-right: 5px
-  .content-title
-    font-weight: 500
-    color: #212121
-    padding-top: 15px
-    padding-bottom: 8px
-    word-wrap normal
-  .text
-    padding-left: 52px
+        height 36px
+        width 36px
+        margin-top: 12px 
+        margin-right: 12px
+      .metadata
+        flex: 1
+        padding-right: 24px
+        .video-title
+          flex: 1
+          font-weight: 500
+          color: #212121
+          margin-top: 12px
+          margin-bottom: 6px
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          line-height: 20px;
+          max-height: 40px;
     
