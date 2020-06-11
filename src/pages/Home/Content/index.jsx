@@ -9,34 +9,32 @@ const Content = () => {
   return (
     <Layout.Content className='main-content-wrap' theme='light' width='240px'>
       <div className='title'>
-        <Tooltip title='25 невероятных фактов о съемках Гарри Поттера'>
-          <span className='title-style'>Рекомендовано</span>
-        </Tooltip>
+        <span className='title-style'>Рекомендовано</span>
       </div>
       <Row>
         {VIDEOS_CONTENT.map((item, index) => {
           console.log({ item, index })
           return (
-            <Col xs={24} sm={24} md={12} lg={8} xxl={4} key={index}>
+            <Col xs={24} sm={24} md={12} lg={8} xxl={6} key={index}>
               <div className='video-item-wrap'>
-                <img src='/public/img/noticia-youtube-min.jpg' width='100%' height='100%' />
-                <span className='duration'>22:40</span>
+                <div className='video-duration-wrap'>
+                  <img src={item.videoPreview} width='100%' height='100%' />
+                  <span className='duration'>22:40</span>
+                </div>
                 <div className='video-description-wrap'>
                   <div className='photo-user'>
-                    {item.avatar}
-                    {/* <img src='/public/img/2020-05-15 14.30.59.jpg' width='100%' height='100%' /> */}
+                    <img src={item.avatar} width='100%' height='100%' />
                   </div>
                   <div className='metadata'>
-                    <div className='video-title'>{item.title} </div>
-                    <div className='text'>{item.channelName}</div>
-                    <div className='text'>
-                      {item.numberOfViews}
-                      {item.createdAt}
-                    </div>
+                    <Tooltip title='25 невероятных фактов о съемках Гарри Поттера'>
+                      <div className='video-title'>{item.title} </div>
+                    </Tooltip>
+                    <Tooltip title='Новий канал'>
+                      <div className='video-description'>{item.channelName}</div>
+                    </Tooltip>
+                    <div className='text'>{item.numberOfViews}</div>
                   </div>
-                  <div className='button'>
-                    <MoreOutlined />
-                  </div>
+                  <MoreOutlined className='button' />
                 </div>
               </div>
             </Col>
