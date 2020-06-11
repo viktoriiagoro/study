@@ -204,4 +204,234 @@ export const VIDEOS_CONTENT = [
     channelName: 'Новий канал',
     videoDuration: '50:12',
   },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
+  {
+    videoPreview:
+      'https://i.ytimg.com/vi/1AWc5OJjhpA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAzrPFdHNEtkXL_Wnwx9jA4q7N5WA',
+    avatar: 'https://yt3.ggpht.com/a-/AOh14GhjBEVKZnvnp5_pLy_Uv8OYwk-7zFVKyQ21Zg=s68-c-k-c0x00ffffff-no-rj-mo',
+    title: '25 невероятных фактов о съемках Гарри Поттера',
+    numberOfViews: 17098,
+    createdAt: '25/05/2020 13:05',
+    channelName: 'Новий канал',
+    videoDuration: '50:12',
+  },
 ]

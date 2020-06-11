@@ -14,6 +14,7 @@ const Sider = () => {
               {item.menu.map((itm, ind) => {
                 const Icon = itm.icon
                 return (
+                  // eslint-disable-next-line react/jsx-handler-names
                   <div className={'menu-item' + (itm.isActive ? ' menu-active' : '')} key={ind} onClick={itm.action}>
                     <div className='left-wrap'>
                       <Icon className='menu-item-icon' />
