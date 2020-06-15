@@ -19,7 +19,7 @@ const Content = () => {
               <div className='video-item-wrap'>
                 <div className='video-duration-wrap'>
                   <img src={item.videoPreview} width='100%' height='100%' />
-                  <span className='duration'>22:40</span>
+                  <span className='duration'>{item.videoDuration}</span>
                 </div>
                 <div className='video-description-wrap'>
                   <div className='photo-user'>
@@ -32,7 +32,11 @@ const Content = () => {
                     <Tooltip title='Новий канал'>
                       <div className='video-description'>{item.channelName}</div>
                     </Tooltip>
-                    <div className='text'>{item.numberOfViews}</div>
+                    <div className='video-description-view'>
+                      <div className='views'>{item.numberOfViews} тис. переглядів</div>
+                      <span className='dots' />
+                      <div className='views'>{item.createdAt}</div>
+                    </div>
                   </div>
                   <MoreOutlined className='button' />
                 </div>
